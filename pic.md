@@ -1,0 +1,18 @@
+# Пример документа с изображением Base64
+
+## Демонстрация работы с base64 изображениями
+
+### Простое изображение
+
+Вот пример красного квадрата 10x10 пикселей:
+
+![Красный квадрат](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAANSURBVAiZY2AgCjAAAAGBAAEvwjK4AAAAAElFTkSuQmCC)
+
+### Изображение с использованием HTML
+
+<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMDA3ZmZmIi8+CiAgPHRleHQgeD0iNTAiIHk9IjUwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTgiIGZpbGw9IndoaXRlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5CbHVlIFJlY3RhbmdsZTwvdGV4Dz4KPC9zdmc+" alt="Синий прямоугольник" width="200">
+
+## Код примера
+
+```markdown
+![Красный квадрат](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAANSURBVAiZY2AgCjAAAAGBAAEvwjK4AAAAAElFTkSuQmCC)
